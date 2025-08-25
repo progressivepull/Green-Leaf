@@ -1,5 +1,6 @@
 package org.green_leaf.controllers;
 
+import org.green_leaf.models.Customer;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
@@ -23,6 +24,19 @@ public class LoginController {
             model.addAttribute("error", "Invalid credentials");
             return "login";
         }
+    }
+    
+
+    @GetMapping("/customer")
+    public String showForm(Model model) {
+        model.addAttribute("customer", new Customer());
+        return "customer-form";
+    }
+
+    @PostMapping("/customer")
+    public String submitForm(@ModelAttribute Customer customer, Model model) {
+        model.addAttribute("submittedCustomer", customer);
+        return "customer-result";
     }
 
 }
