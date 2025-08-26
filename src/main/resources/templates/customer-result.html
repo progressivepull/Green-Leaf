@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
-<head>
-    <title>Customer Submitted</title>
-</head>
+<head th:replace="fragments/header :: header('Customer Result | GL')"></head>
 <body>
-    <h2>Customer Info Submitted</h2>
-    <p><strong>Name:</strong> <span th:text="${submittedCustomer.name}"></span></p>
-    <p><strong>Email:</strong> <span th:text="${submittedCustomer.email}"></span></p>
-    <p><strong>Mailing Address:</strong> <span th:text="${submittedCustomer.mailingAddress}"></span></p>
+
+	<div th:replace="fragments/navbar :: navbar"></div>
+	
+	<div class="container">
+    	<h2>Customer Info Submitted</h2>
+	    <p><strong>Name:</strong> <span th:text="${submittedCustomer.name}"></span></p>
+	    <p><strong>Email:</strong> <span th:text="${submittedCustomer.email}"></span></p>
+	    <p><strong>Mailing Address:</strong> <span th:text="${submittedCustomer.mailingAddress}"></span></p>
+    </div>
+    
+    <div th:replace="fragments/footer :: footer"></div>
+    
 </body>
 </html>
