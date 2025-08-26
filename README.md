@@ -5,12 +5,13 @@
 ## Time : 11:34 PM
 
 ## Release Notes
-* Page
+
+### Page
 	- Login
 	- Welcome
 	- Customer Form
 	- Customer Result
-* Fragments
+### Fragments
 	- Header
 	- Navigate Bar
 	- Footer
