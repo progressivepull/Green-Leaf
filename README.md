@@ -13,4 +13,4 @@
 * Fragments
 	- Header
 	- Navigate Bar
-	= Footer
+	- Footer
