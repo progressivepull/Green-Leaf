@@ -26,9 +26,9 @@
 * John Smith
 	- Github : https://github.com/progressivepull/Green-Leaf       
 	- Email : progressivepull@gmail.com  
-	- Eclipe : John Smith <progressivepull@gmail.com>   
+	- Eclipe : ```John Smith <progressivepull@gmail.com>```   
 * Tom Johnson
 	- GitHub : https://github.com/browntruck246/Green-Leaf        
 	- Email : browntruck246@gmail.com     
-	- Eclipe : Tom Johnson <browntruck246@gmail.com>     
+	- Eclipe : ```Tom Johnson <browntruck246@gmail.com>```     
 	
